@@ -8,7 +8,7 @@ y = 0
 
 for p in pix_val:
 	if p == 0:
-		print('(' + str(y) + ', ' + str(x) + ')')
+		print('Pxl-On(' + str(y) + ', ' + str(x) + ')')
 	x+=1
 	if x == 95:
 		x = 0
